@@ -1,0 +1,11 @@
+.prodiv{
+
+    border: #7E5126 solid 1px;
+    height: 400px;
+    text-align: center;
+    transition: all 0.5s;
+    &:hover{
+background-color:green;
+color:white
+    }
+}

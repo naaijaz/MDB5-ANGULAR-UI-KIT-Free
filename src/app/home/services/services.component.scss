@@ -1,0 +1,31 @@
+
+
+// parallex section
+
+.servicesec{
+
+   background-image: url(../../../assets/Images/servicebg_1.jpg);
+   background-attachment: fixed;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+
+}
+
+.cardimg{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    transition-property:transform;
+    transition-duration:2s;
+    &:hover{
+        transform:scale(1.2,1.2)
+    
+      
+    }
+
+
+}
+

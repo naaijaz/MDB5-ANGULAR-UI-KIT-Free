@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+ 
+@import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+.section-title h1 {
+    position: relative;
+}
+.section-title h1::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background:brown;
+    bottom: -10px;
+    left: calc(50% - 60px);
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: green;
+    bottom: -11px;
+    left: calc(50% - 20px);
+}
