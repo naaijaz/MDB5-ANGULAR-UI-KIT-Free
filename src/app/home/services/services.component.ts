@@ -13,39 +13,39 @@ export class ServicesComponent implements OnInit {
 
     {
       heading:" Quality Products",
-      imageUrl:"../../../assets/Images/qualityproduct.jpg",
+      imageUrl:"./assets/Images/qualityproduct.jpg",
       description:"Some quick example text to build on the card title and make up the bulk of the card",
       buttonLink: "#!"
     },
 
     {
       heading:"Customer Service",
-      imageUrl:"../../../assets/Images/customerservice.jpg",
+      imageUrl:"./assets/Images/customerservice.jpg",
       description:"Some quick example text to build on the card title and make up the bulk of the card",
       buttonLink: "#!"
     },
 
     {
       heading:"Development",
-      imageUrl:"../../../assets/Images/development.jpg",
+      imageUrl:"./assets/Images/development.jpg",
       description:"Some quick example text to build on the card title and make up the bulk of the card",
       buttonLink: "#!"
     },
     {
       heading:"Eco Friendly",
-      imageUrl:"../../../assets/Images/ecofriendly.jpg",
+      imageUrl:"./assets/Images/ecofriendly.jpg",
       description:"Some quick example text to build on the card title and make up the bulk of the card",
       buttonLink: "#!"
     },
     {
       heading:"Recycling",
-      imageUrl:"../../../assets/Images/Recycling.jpg",
+      imageUrl:"./assets/Images/Recycling.jpg",
       description:"Some quick example text to build on the card title and make up the bulk of the card",
       buttonLink: "#!"
     },
     {
       heading:"Quality",
-      imageUrl:"../../../assets/Images/quality.jpg",
+      imageUrl:"./assets/Images/quality.jpg",
       description:"Some quick example text to build on the card title and make up the bulk of the card",
       buttonLink: "#!"
     }
