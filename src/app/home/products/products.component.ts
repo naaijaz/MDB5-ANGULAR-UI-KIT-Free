@@ -12,27 +12,27 @@ export class ProductsComponent implements OnInit {
 
     {
       heading:" Quality Products",
-      imageUrl:"../../../assets/Images/qualityproduct.jpg",
+      icon:"star",
       description:"Some quick example text to build on the card title and make up the bulk of the card",
       buttonLink: "#!"
     },
-
+  
     {
       heading:"Customer Service",
-      imageUrl:"../../../assets/Images/customerservice.jpg",
+      icon:"smile",
       description:"Some quick example text to build on the card title and make up the bulk of the card",
       buttonLink: "#!"
     },
 
     {
       heading:"Development",
-      imageUrl:"../../../assets/Images/development.jpg",
+      icon:"analyse",
       description:"Some quick example text to build on the card title and make up the bulk of the card",
       buttonLink: "#!"
     },
     {
       heading:"Eco Friendly",
-      imageUrl:"../../../assets/Images/ecofriendly.jpg",
+      icon:"tree",
       description:"Some quick example text to build on the card title and make up the bulk of the card",
       buttonLink: "#!"
     }

@@ -1,0 +1,14 @@
+<div class="gallery-carousel" (click)="close()">
+    <div class="carousel-image" (click)="onEvent($event)">
+        <img [@slide-in]="animStage" (@slide-in.done)="animDone()" [src]="images[animImage].url">
+        <div class="carousel-button">
+
+            <span tabindex="1" (keyup.enter)="previous()" (click)="previous()">&lt;</span>
+            <span></span>
+            <span tabindex="2" (keyup.enter)="next()" (click)="next()">&gt;</span>
+        </div>
+
+    </div>
+    <span tabindex="3" class="carousel-close" (click)="close()">close</span>
+
+</div>

@@ -7,14 +7,39 @@
       </div>
 <div class="container">
 
-<div class="row">
-    <div class="col-3" *ngFor="let procard of ProductCards">
-        <div class="prodiv mx-2 my-4 d-flex justify-content-center align-items-center">
-            <div>{{procard.heading}}</div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="mx-2 my-4 d-flex justify-content-center align-items-center probg">
+        
+               <div class="text-white">
+                   <h1>Product</h1>
+                   <p>We Maintain highest standard of quliaty products </p>
+               </div>
+                
+            </div>
+        </div>
+        <div class="col-lg-6"><div class="row">
+            <div class="col-6" *ngFor="let procard of ProductCards">
+                <div class="prodiv mx-2 my-4 d-flex flex-column justify-content-center align-items-center">
+                 
+                    <div>
+                        <i class="bx bxs-{{procard.icon}} bx-lg" ></i><br>
+                    </div>
+                    <div>{{procard.heading}}</div>
+                   
+                
+                </div>
+        
+            </div>
         </div>
 
+
+        </div>
     </div>
-</div>
+
+
+
+
 </div>
 
 </div>

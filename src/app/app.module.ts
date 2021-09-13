@@ -31,7 +31,7 @@ import { OrderComponent } from './home/order/order.component';
 import { InfrastructureComponent } from './home/infrastructure/infrastructure.component';
 import { ContactComponent } from './home/contact/contact.component';
 import { FooterComponent } from './home/footer/footer.component';
-
+import { GalleryCarouselComponent } from './home/gallery-carousel/gallery-carousel.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,7 +44,8 @@ import { FooterComponent } from './home/footer/footer.component';
     OrderComponent,
     InfrastructureComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    GalleryCarouselComponent
   ],
   imports: [
     BrowserModule,
@@ -64,6 +65,7 @@ import { FooterComponent } from './home/footer/footer.component';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
